@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e0f2e9; /* Tom de verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28a745; /* Verde similar ao da Unimed */
+    padding: 20px;
+    color: #fff; /* Branco */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    flex-grow: 1;
+}
+
+header button {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    padding: 10px 25px;
+    background: #2a8c4a;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+header button:hover {
+    transform: translateY(-60%);
+    background-color: #19692e;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.profile-card {
+    background-color: #fff; /* Branco */
+    border: 2px solid #28a745; /* Verde similar ao da Unimed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #000000; /* Verde similar ao da Unimed */
+}
+
+.profile-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #070707; /* Verde similar ao da Unimed */
+}
+
+.profile-card p {
+    color: #666;
+    font-size: 1em;
+}
+
+.profile-card p.specialty {
+    color: #28a745; /* Verde similar ao da Unimed */
+    font-weight: bold;
+}
+
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center; /* Adiciona centralização dos cartões */
+}
+
+.profile-card {
+    background-color: #fff; /* Branco */
+    border: 2px solid #28a745; /* Verde similar ao da Unimed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
